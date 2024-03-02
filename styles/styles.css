@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:wght@300&family=Rubik&display=swap');
+
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+#profile {
+    background-color: #69995D;
+    color: #0b3667;
+    display: grid;
+    align-items: center;
+    padding: 3% 0 3% 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #6f7376;
+}
+
+#profile img {
+    max-width: 9em;
+    box-shadow: 5px 5px 5px #6f7376;
+}
+
+h1, h2 {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+hr {
+    width: 90%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: center;
+}
+
+nav div {
+    width: 100%;
+    margin: 15px 15px;
+    padding: 10px 0px 10px 0px;
+}
+
+a {
+    display: block;
+    box-sizing: border-box;
+    font-family: Roboto, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 2% 2%;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #69995D;
+    color: black;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #0b3667;
+    color: white;
+}
+
+footer {
+    background-color: #69995D;
+    color: #0b3667;
+    text-align: center;
+    padding: 3em;
+    margin: 50px 0px 0px 0px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #6f7376;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
